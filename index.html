@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Api NASA</title>
+  <link rel="stylesheet" href="/src/css/estilo.css" />
+</head>
+ 
+<body>
+  <header>
+    <h1>🌌 NASA Astronomy Picture of the Day</h1>
+    <input type="date" id="datePicker" />
+    <button id="saveFavorite">⭐ Guardar Favorito</button>
+  </header>
+ 
+  <main>
+    <h2 id="title"></h2>
+    <p id="date"></p>
+    <div id="media"></div>
+    <p id="explanation"></p>
+  </main>
+ 
+  <aside>
+    <h3>❤️ Favoritos</h3>
+    <ul id="favoritesList"></ul>
+  </aside>
+ 
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
